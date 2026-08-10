@@ -26,4 +26,4 @@ latest_posts:
 
 Hi, my name is Yungong Wang. I am a first-year graduate student in the Department of Electrical and Computer Engineering (ECE) at Carnegie Mellon University. Before coming to CMU, I received my B.S. in Computer Science with a minor in Applied Mathematics from the University of California, Santa Barbara (UCSB). During my undergraduate studies, I also worked remotely with Peking University's AI Lab, collaborating with Xingxing Hong and Professor Wenxin Li on reinforcement learning projects.
 
-My research experience so far has centered on multi-agent reinforcement learning (MARL) and large language models (LLMs). I am broadly interested in MARL benchmarks and algorithm design, as well as in exploring how LLMs can be integrated to improve MARL.
+My research experience so far has centered on multi-agent reinforcement learning (MARL) and large language models (LLMs). I am broadly interested in MARL benchmarks and algorithm design, LLM post-training, and how LLMs can be leveraged to improve reinforcement learning. Beyond this, I am also interested in programming languages and computer architecture.
