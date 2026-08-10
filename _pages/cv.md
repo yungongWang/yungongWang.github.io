@@ -1,12 +1,22 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
 title: CV
 nav: true
 nav_order: 5
-cv_pdf: /assets/pdf/example_pdf.pdf # you can also use external links here
-cv_format: rendercv # options: rendercv, jsonresume
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
+description:
 ---
+
+<div style="width: 100%; height: 85vh; margin-top: -1rem;">
+  <embed
+    src="{{ '/assets/pdf/CV.pdf' | relative_url }}"
+    type="application/pdf"
+    width="100%"
+    height="100%"
+    style="border: none;">
+</div>
+
+<p style="text-align: center; font-size: 0.85rem; opacity: 0.7;">
+  If the preview doesn't load on your device,
+  <a href="{{ '/assets/pdf/CV.pdf' | relative_url }}" target="_blank" rel="noopener">open the CV in a new tab</a>.
+</p>
