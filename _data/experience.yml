@@ -13,12 +13,12 @@
 
 internship:
   - company: "The Institute of Artificial Intelligence, China Telecom (TeleAI)"
-    role: ""
+    role: "LLM Post-Training Algorithm Intern"
     period: "Jun 2026 - Aug 2026"
     location: "Beijing, China"
     image: assets/img/teleai.png
     bullets:
-      - ""
+      - "Designed and implemented a hint-augmented variant of on-policy distillation (OPD) for LLM reasoning, improving AIME25 math accuracy by 5%."
     links:
       - label: "link"
         url: "https://teleai.com.cn/"
