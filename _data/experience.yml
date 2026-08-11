@@ -53,7 +53,7 @@ research:
     sub_entries:
       - period: "Feb 2026 – Aug 2026"
         bullets:
-          - "SMAC-AST"
+          - "Developed a benchmark generator producing SMAC-compatible testbeds for MARL training, combining LLM-based code synthesis with a custom DSL compiling infrastructure to parse, validate, and transform generated code into StarCraft II scenarios."
         links:
           - label: "Paper"
             url: "https://arxiv.org/abs/XXXX.XXXXX"
@@ -68,8 +68,23 @@ research:
             url: "https://arxiv.org/abs/2509.12927"
 
 project:
-  - company: "TODO: project name"
-    role: ""
-    period: ""
-    bullets:
-      - "TODO: fill in once we go through the project section together."
+  - company: "University of California, Santa Barbara"
+    location: "Santa Barbara, CA"
+    sub_entries:
+      - period: "Diffusion Model Fine-Tuning"
+        bullets:
+          - "Fine-Tuning InstructPix2Pix, a text-guided image-to-image diffusion model, to improve its performance on color modification task, with a custom dataset and a BERT classifier for original ability retaining."
+        links:
+          - label: "Paper"
+            url: "https://drive.google.com/file/d/1eVj2B_xmTpJWWQOKtdFE0R3bWWu1KYDG/view?usp=sharing"
+          - label: "Code"
+            url: "https://drive.google.com/drive/folders/1I3wjrYsOigrYvaq53zLezmMN71jgOS2A?usp=drive_link"
+          - label: "Data"
+            url: "https://huggingface.co/datasets/yungong1234/PASCAL_Segmentation"
+      - period: "Mini-C Compiler Implementation"
+        bullets:
+          - "XXX"
+        links:
+          - label: "Code"
+            url: "https://github.com/yungongWang/CS160HW5"
+
