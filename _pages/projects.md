@@ -77,6 +77,24 @@ nav_order: 3
   opacity: 0.8;
 }
 .exp-item .exp-links a:hover { opacity: 1; }
+
+.exp-subentries {
+  margin-top: 0.75rem;
+  padding-left: 1rem;
+  border-left: 2px solid rgba(128, 128, 128, 0.2);
+}
+.exp-subentry {
+  margin-bottom: 1.1rem;
+}
+.exp-subentry:last-child {
+  margin-bottom: 0;
+}
+.exp-subentry-period {
+  font-size: 0.85rem;
+  font-weight: 600;
+  opacity: 0.75;
+  margin-bottom: 0.3rem;
+}
 </style>
 
 <div class="experience">
@@ -101,25 +119,55 @@ nav_order: 3
       <div class="exp-content">
         <h4>{{ item.company }}</h4>
         {% if item.role %}<div class="exp-role">{{ item.role }}</div>{% endif %}
-        {% if item.period or item.location %}
-        <div class="exp-meta">
-          {{ item.period }}{% if item.period and item.location %} &middot; {% endif %}{{ item.location }}
-        </div>
+
+        {% if item.sub_entries %}
+          {% if item.location %}
+          <div class="exp-meta">{{ item.location }}</div>
+          {% endif %}
+          <div class="exp-subentries">
+            {% for sub in item.sub_entries %}
+            <div class="exp-subentry">
+              {% if sub.period %}<div class="exp-subentry-period">{{ sub.period }}</div>{% endif %}
+              {% if sub.bullets %}
+              <ul>
+                {% for bullet in sub.bullets %}
+                <li>{{ bullet }}</li>
+                {% endfor %}
+              </ul>
+              {% endif %}
+              {% if sub.links %}
+              <div class="exp-links">
+                {% for link in sub.links %}
+                <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+                {% endfor %}
+              </div>
+              {% endif %}
+            </div>
+            {% endfor %}
+          </div>
+
+        {% else %}
+          {% if item.period or item.location %}
+          <div class="exp-meta">
+            {{ item.period }}{% if item.period and item.location %} &middot; {% endif %}{{ item.location }}
+          </div>
+          {% endif %}
+          {% if item.bullets %}
+          <ul>
+            {% for bullet in item.bullets %}
+            <li>{{ bullet }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+          {% if item.links %}
+          <div class="exp-links">
+            {% for link in item.links %}
+            <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+            {% endfor %}
+          </div>
+          {% endif %}
         {% endif %}
-        {% if item.bullets %}
-        <ul>
-          {% for bullet in item.bullets %}
-          <li>{{ bullet }}</li>
-          {% endfor %}
-        </ul>
-        {% endif %}
-        {% if item.links %}
-        <div class="exp-links">
-          {% for link in item.links %}
-          <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
-          {% endfor %}
-        </div>
-        {% endif %}
+
       </div>
     </div>
     {% endfor %}
