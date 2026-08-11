@@ -48,13 +48,23 @@ internship:
 research:
   - company: "Peking University AI Lab"
     role: "Research Assistant"
-    period: "Jul 2024 – Present"
     location: "Remote"
-    bullets:
-      - "TODO: fill in once we go through the research section together."
-    links:
-      - label: "HLSMAC Paper"
-        url: "https://arxiv.org/abs/2509.12927"
+    sub_entries:
+      - period: "Feb 2026 – Aug 2026"
+        bullets:
+          - "SMAC-AST"
+        links:
+          - label: "Paper"
+            url: "https://arxiv.org/abs/XXXX.XXXXX"
+      - period: "Oct 2025 – Feb 2026"
+        bullets:
+          - "XXX"
+      - period: "Jul 2024 – Sep 2025"
+        bullets:
+          - "Designed a benchmark to assess high-level intelligence in multi-agent systems based on the StarCraft II game, which consists of 15+ game maps and supports 21+ mainstream MARL algorithms for evaluation."
+        links:
+          - label: "Paper"
+            url: "https://arxiv.org/abs/2509.12927"
 
 project:
   - company: "TODO: project name"
