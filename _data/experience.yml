@@ -20,7 +20,7 @@ internship:
     bullets:
       - "Designed and implemented a hint-augmented variant of on-policy distillation (OPD) for LLM reasoning, improving AIME25 math accuracy by 5%."
     links:
-      - label: "link"
+      - label: "Link"
         url: "https://teleai.com.cn/"
 
   - company: "PwC Global Technology Solutions (GTS)"
@@ -31,7 +31,7 @@ internship:
     bullets:
       - "Provided technical support across operating system configuration and hardware diagnostics in an enterprise IT environment."
     links:
-      - label: "link"
+      - label: "Link"
         url: "https://www.pwccn.com/"
 
   - company: "Minidata"
@@ -42,7 +42,7 @@ internship:
     bullets:
       - "Developed neural network models for textile defect detection, improving accuracy by 15%."
     links:
-      - label: "link"
+      - label: "Link"
         url: "https://www.minidata.info/"
 
 research:
@@ -98,12 +98,12 @@ project:
         bullets:
           - "Built a schedule conversion tool that automatically syncs students' course schedules from UCSB course enrollment platform to Google Calendar."
         links:
-          - label: "link"
+          - label: "Link"
             url: "https://github.com/ucsb-cs148-w25/pj01-scheduleconverter"
       - period: "Website Enhancement"
         bullets:
           - "Contributed to a full-stack rewrite of an educational simulation platform (sponsored by a UCSB faculty member), building an end-to-end announcement feature that allows all users to post public messages on the homepage."
         links:
-          - label: "link"
+          - label: "Link"
             url: "https://github.com/ucsb-cs156-f24/proj-happycows-f24-12"
 
