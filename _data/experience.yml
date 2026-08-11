@@ -1,0 +1,56 @@
+# Each entry renders as one row on the /projects/ page (no individual page is created).
+#
+# Fields:
+#   company  - required, shown as the main heading (company / institution name)
+#   role     - your position / title there, shown in italics under the heading
+#   period   - e.g. "Jul 2025 – Sep 2025"
+#   location - e.g. "Beijing, China" or "Remote"
+#   image    - optional preview image, path relative to site root
+#              (delete the line entirely if you don't have one for this entry)
+#   bullets  - list of 2-4 short bullet points describing what you did
+#   links    - optional list of {label, url} pairs, rendered as small pill buttons
+#              (delete the whole `links:` block if there's nothing to link)
+
+internship:
+  - company: "PwC Global Technology Solutions (GTS)"
+    role: "IT Support Intern"
+    period: "Jul 2025 – Sep 2025"
+    location: "Beijing, China"
+    bullets:
+      - "Configured operating systems, deployed enterprise software, and provided daily technical support for employees; conducted hardware diagnostics and assisted with IT asset management."
+      - "Designed a pipeline-style configuration process for a large-scale onboarding project, reducing idle time and improving workflow efficiency across detection, installation, and deployment."
+      - "Supported the preparation of 400+ computers for incoming employees within two weeks, finishing several days ahead of schedule."
+
+  - company: "Minidata"
+    role: "Machine Learning Intern, Computer Vision"
+    period: "Jul 2024 – Dec 2024"
+    location: "Remote"
+    bullets:
+      - "Developed a neural network model for textile defect detection using LeNet-5 and ResNet-34 architectures, improving accuracy by 15%."
+      - "Expanded the dataset by collecting and categorizing 1,000+ textile images, manually creating defects to optimize the model's generalization ability."
+      - "Applied saliency maps to test model reliability and performance, iteratively refining the dataset and model structure."
+
+  # - company: "TODO: your third / most recent internship"
+  #   role: ""
+  #   period: ""
+  #   location: ""
+  #   bullets:
+  #     - ""
+
+research:
+  - company: "Peking University AI Lab"
+    role: "Research Assistant (Remote)"
+    period: "Jul 2024 – Present"
+    location: "Remote"
+    bullets:
+      - "TODO: fill in once we go through the research section together."
+    links:
+      - label: "HLSMAC Paper"
+        url: "https://arxiv.org/abs/2509.12927"
+
+project:
+  - company: "TODO: project name"
+    role: ""
+    period: ""
+    bullets:
+      - "TODO: fill in once we go through the project section together."
