@@ -70,6 +70,7 @@ research:
 project:
   - company: "University of California, Santa Barbara"
     location: "Santa Barbara, CA"
+    image: assets/img/ucsb.png
     sub_entries:
       - period: "Diffusion Model Fine-Tuning"
         bullets:
