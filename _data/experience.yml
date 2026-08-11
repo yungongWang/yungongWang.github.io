@@ -49,6 +49,7 @@ research:
   - company: "Peking University AI Lab"
     role: "Research Assistant"
     location: "Remote"
+    image: assets/img/pku.png
     sub_entries:
       - period: "Feb 2026 – Aug 2026"
         bullets:
