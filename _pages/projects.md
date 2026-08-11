@@ -8,12 +8,38 @@ nav_order: 3
 ---
 
 <style>
-.exp-section { margin-bottom: 2.5rem; }
+.exp-section {
+  margin-bottom: 3rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid rgba(128, 128, 128, 0.25);
+}
+.exp-section:first-of-type {
+  padding-top: 0;
+  border-top: none;
+}
+.exp-section h2.category {
+  font-size: 1.3rem !important;
+  font-family: inherit !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  opacity: 0.7;
+  margin-bottom: 1.75rem !important;
+  border: none !important;
+  padding: 0 !important;
+}
 .exp-item {
   display: flex;
   gap: 1.25rem;
   align-items: flex-start;
+  padding-bottom: 1.75rem;
   margin-bottom: 1.75rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.15);
+}
+.exp-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 .exp-item .exp-thumb {
   width: 84px;
