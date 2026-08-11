@@ -16,7 +16,7 @@ internship:
     role: ""
     period: "Jun 2026 - Aug 2026"
     location: "Beijing, China"
-    img: assets/img/teleai.png
+    image: assets/img/teleai.png
     bullets:
       - ""
     links:
@@ -27,7 +27,7 @@ internship:
     role: "IT Support Intern"
     period: "Jul 2025 – Sep 2025"
     location: "Beijing, China"
-    img: assets/img/pwc.png
+    image: assets/img/pwc.png
     bullets:
       - "Configured operating systems, deployed enterprise software, and provided daily technical support for employees; conducted hardware diagnostics and assisted with IT asset management."
       - "Designed a pipeline-style configuration process for a large-scale onboarding project, reducing idle time and improving workflow efficiency across detection, installation, and deployment."
@@ -40,7 +40,7 @@ internship:
     role: "Machine Learning Intern, Computer Vision"
     period: "Jul 2024 – Sep 2024"
     location: "NYC"
-    img: assets/img/minidata.png
+    image: assets/img/minidata.png
     bullets:
       - "Developed a neural network model for textile defect detection using LeNet-5 and ResNet-34 architectures, improving accuracy by 15%."
       - "Expanded the dataset by collecting and categorizing 1,000+ textile images, manually creating defects to optimize the model's generalization ability."
