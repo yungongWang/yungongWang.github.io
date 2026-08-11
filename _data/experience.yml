@@ -29,9 +29,7 @@ internship:
     location: "Beijing, China"
     image: assets/img/pwc.png
     bullets:
-      - "Configured operating systems, deployed enterprise software, and provided daily technical support for employees; conducted hardware diagnostics and assisted with IT asset management."
-      - "Designed a pipeline-style configuration process for a large-scale onboarding project, reducing idle time and improving workflow efficiency across detection, installation, and deployment."
-      - "Supported the preparation of 400+ computers for incoming employees within two weeks, finishing several days ahead of schedule."
+      - "Provided technical support across operating system configuration and hardware diagnostics in an enterprise IT environment."
     links:
       - label: "link"
         url: "https://www.pwccn.com/"
@@ -42,9 +40,7 @@ internship:
     location: "NYC"
     image: assets/img/minidata.png
     bullets:
-      - "Developed a neural network model for textile defect detection using LeNet-5 and ResNet-34 architectures, improving accuracy by 15%."
-      - "Expanded the dataset by collecting and categorizing 1,000+ textile images, manually creating defects to optimize the model's generalization ability."
-      - "Applied saliency maps to test model reliability and performance, iteratively refining the dataset and model structure."
+      - "Developed neural network models for textile defect detection, improving accuracy by 15%."
     links:
       - label: "link"
         url: "https://www.minidata.info/"
